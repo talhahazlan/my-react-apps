@@ -1,0 +1,47 @@
+/* src/Message.css */
+
+.message-container {
+    background-color: #e9c3ef;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .message-container img.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .message-container .header-text {
+    color: #8a2be2;
+    margin-bottom: 20px;
+  }
+  
+  .message-container h1 {
+    color: #333;
+    font-style: italic;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .message-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #664089; /* Purple button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .message-container button:hover {
+    background-color: #9500ff;
+  }
+  

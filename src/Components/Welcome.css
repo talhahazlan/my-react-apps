@@ -1,0 +1,44 @@
+/* src/components/Welcome.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.welcome-container {
+  background-color: #e0c3fc; /* Light purple background */
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(106, 13, 173, 0.2); /* Slight purple shadow */
+  margin: 20px;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.welcome-container h1 {
+  color: #8a2be2; /* Purple text color */
+  font-size: 2.1em;
+  margin-bottom: 10px;
+  font-family: 'Pacifico', cursive;
+}
+
+.welcome-container p {
+  color: #333; /* Dark text color */
+  font-size: 0.9em; /* Smaller font size */
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 0;
+}
+
+.welcome-container p:last-child {
+  margin-top: 20px;
+  font-style: italic;
+}
